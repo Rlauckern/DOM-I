@@ -91,5 +91,9 @@ psBottom[0].textContent = siteContent['main-content']['services-content'];
 psBottom[1].textContent = siteContent['main-content']['product-content'];
 psBottom[2].textContent = siteContent['main-content']['vision-content'];
 
-
-
+screen.getByText('DOM Is Awesome');
+screen.getByText('Get Started');
+screen.getByText(
+  'Features',
+  { selector: '.top-content .text-content:nth-of-type(1) h4' }
+);
