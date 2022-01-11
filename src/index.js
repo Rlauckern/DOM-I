@@ -97,3 +97,7 @@ screen.getByText(
   'Features',
   { selector: '.top-content .text-content:nth-of-type(1) h4' }
 );
+screen.getByText(
+  'About',
+  { selector: '.top-content .text-content:nth-of-type(2) h4' }
+)
